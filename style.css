@@ -31,6 +31,24 @@ body {
     top: 1px;
 }
 
+.navbar-item1:hover {
+    transform: scale(1.1);
+}
+.navbar-item2:hover {
+    transform: scale(1.1);
+}
+.navbar-item3:hover {
+    transform: scale(1.1);
+}
+.navbar-item4:hover {
+    transform: scale(1.1);
+}
+.navbar-item5:hover {
+    transform: scale(1.1);
+}
+.navbar-item1, .navbar-item2, .navbar-item3, .navbar-item4, .navbar-item5 {
+    transition: all 0.4s;
+}
 
 .newin-items {
     display: grid;
