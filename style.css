@@ -66,12 +66,28 @@ body {
 
 }
     
-.newin-item1 {
+.newin-item1 , .newin-square {
     grid-area: 1 / 1 / 6 / 3;
     width: 98%;
     height: 98%;
     margin: 5px;
 }
+.newin-item1 {
+    transition: all 0.5s;
+}
+.newin-item1:hover {
+    opacity: 0.0;
+}
+.newin-square {
+    background-color: rgb(241, 241, 241);
+    border-radius: 15px;
+}
+.newin-square p {
+    margin: 50px;
+}
+
+
+
 .newin-item2 {
     grid-area: 1 / 3 / 2 / 5;
     font-size: 22px;
@@ -127,11 +143,25 @@ body {
     margin: 120px 50px 50px 50px;
 }
     
-.sneakerM-item1 {
+.sneakerM-item1 , .sneakerM-square {
     grid-area: 1 / 1 / 6 / 3;
     width: 100%;
     height: 100%;
 }
+.sneakerM-item1 {
+    transition: all 0.5s;
+}
+.sneakerM-item1:hover {
+    opacity: 0.0;
+}
+.sneakerM-square {
+    background-color: rgb(241, 241, 241);
+    border-radius: 15px;
+}
+.sneakerM-square p {
+    margin: 50px;
+}
+
 .sneakerM-item2 {
     grid-area: 1 / 3 / 2 / 5;
     font-size: 22px;
@@ -214,17 +244,31 @@ body {
 }
 
 .hoodies-container {
-    margin: 120px 50px 50px 50px;
+    margin: 120px 50px 20px 50px;
     flex-wrap: wrap;
 
 }
     
-.hoodies-img {
+.hoodies-img , .hoodies-square {
     grid-area: 1 / 1 / 6 / 3;
     width: 98%;
     height: 98%;
     margin: 10px;
 }
+.hoodies-img {
+    transition: all 0.5s;
+}
+.hoodies-img:hover {
+    opacity: 0.0;
+}
+.hoodies-square {
+    background-color: rgb(241, 241, 241);
+    border-radius: 15px;
+}
+.hoodies-square p {
+    margin: 50px;
+}
+
 .hoodies-title {
     grid-area: 1 / 3 / 2 / 5;
     font-size: 22px;
@@ -250,12 +294,12 @@ body {
 }
 
 .remeras-container {
-    margin: 120px 50px 50px 50px;
+    margin: 50px;
     flex-wrap: wrap;
 
 }
     
-.remeras-img {
+.remeras-img , .remeras-square {
     grid-area: 1 / 1 / 6 / 3;
     width: 98%;
     height: 98%;
@@ -263,6 +307,20 @@ body {
     position: relative;
     bottom: 4px;
 }
+.remeras-img {
+    transition: all 0.5s;
+}
+.remeras-img:hover {
+    opacity: 0.0;
+}
+.remeras-square {
+    background-color: rgb(241, 241, 241);
+    border-radius: 15px;
+}
+.remeras-square p {
+    margin: 50px;
+}
+
 .remeras-title {
     grid-area: 1 / 3 / 2 / 5;
     font-size: 22px;
