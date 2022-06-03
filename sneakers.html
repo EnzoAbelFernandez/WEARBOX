@@ -4,55 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/logo.png">
+    <link rel="icon" href="images/loguito.png">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:ital@1&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <title>SNEAKERS</title>
+    <!-- Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Wearbox</title>
 </head>
 <body>
-    <header class="navbar-container">
-        <ul>
-            <nav class="navbar-items">
-                <li><a href="sneakers.html">Sneakers</a></li>
-                <li><a href="indumentaria.html">Indumentaria</a></li>
-                <li><a href="index.html"><img src="images/logo.jpg" alt="WEARBOX Logo"></a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </nav>
-        </ul>
-    </header>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <img class=".d-inline-block .align-text-top" src="images/loguito.png" alt="WEARBOX Logo">Wearbox
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="sneakers.html">Sneakers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="indumentaria.html">Indumentaria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    <article class="sneakerM-container">
-        <div class="sneakerM-items">
-            <img class="sneakerM-item1" src="images/descarga.jfif" alt="Sneaker">
-            <main class="sneakerM-item2">SNEAKERS</main>
-            <p class="sneakerM-item3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque rem iste deleniti alias ex. Dolorum aspernatur eveniet blanditiis soluta, laborum mollitia harum suscipit, velit sunt culpa odio dignissimos voluptates ad?
-            Quo, temporibus consectetur culpa totam reprehenderit blanditiis dolores placeat! Nam cumque dicta, nulla fuga delectus quidem officiis commodi expedita facere placeat, ea animi ex! Sapiente, neque? Iste, eius! Perspiciatis, laborum.
-            Molestias perferendis mollitia optio ipsa id, cupiditate ut quibusdam impedit deserunt explicabo iste maiores labore facilis porro quod excepturi natus corporis dolorum soluta aperiam veniam alias! Mollitia veniam aliquid voluptatem.
-            Nemo, ullam? Reiciendis laudantium cum mollitia, autem sunt provident alias cupiditate aliquam ea nobis! Eos facilis quibusdam libero aliquam facere! Velit nihil perferendis exercitationem similique possimus provident natus, amet culpa!
-            Culpa dolorem nisi repellat incidunt accusantium ullam voluptate animi, reiciendis rerum vel molestiae vitae exercitationem maxime veritatis repudiandae voluptatibus iste. Quos beatae repudiandae itaque aspernatur quam inventore aut deserunt possimus.
-            Omnis assumenda culpa ullam vitae in facere architecto eveniet officiis inventore saepe molestiae repudiandae non numquam, optio soluta, eaque delectus minus incidunt aliquam asperiores ducimus cupiditate! Minus, facere. Dicta, aperiam!
-            Illum debitis et adipisci impedit quasi. Ab similique illum voluptatum maxime harum qui odio facere nemo est cumque, mollitia rerum modi suscipit itaque placeat possimus reiciendis ducimus laudantium. Voluptates, repellendus.
-            Amet fuga vitae atque reprehenderit expedita quod quos obcaecati eaque placeat voluptatibus vero corrupti adipisci, vel recusandae deserunt laboriosam consequatur. Asperiores eveniet eaque architecto a repellendus maxime deserunt dolore quidem!
-            Beatae maiores eius ullam corporis quaerat, dignissimos quae. Vero, nisi provident quibusdam molestiae quos dolores.</p>
+    <article class="container container-newin bg-light p-4 rounded-4 sneakerM-container">
+        <div class="row">
+            <img class="col-6 sneakerM-item1 rounded-4" src="images/descarga.jfif" alt="Sneaker">
+            <div class="col-6">
+                <main class="sneakerM-item2 row fs-4">SNEAKERS</main>
+                <p class="sneakerM-item3 row">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque rem iste deleniti alias ex. Dolorum aspernatur eveniet blanditiis soluta, laborum mollitia harum suscipit, velit sunt culpa odio dignissimos voluptates ad?
+                Quo, temporibus consectetur culpa totam reprehenderit blanditiis dolores placeat! Nam cumque dicta, nulla fuga delectus quidem officiis commodi expedita facere placeat, ea animi ex! Sapiente, neque? Iste, eius! Perspiciatis, laborum.
+                Molestias perferendis mollitia optio ipsa id, cupiditate ut quibusdam impedit deserunt explicabo iste maiores labore facilis porro quod excepturi natus corporis dolorum soluta aperiam veniam alias! Mollitia veniam aliquid voluptatem.
+                Nemo, ullam? Reiciendis laudantium cum mollitia, autem sunt provident alias cupiditate aliquam ea nobis! Eos facilis quibusdam libero aliquam facere! Velit nihil perferendis exercitationem similique possimus provident natus, amet culpa!
+                Culpa dolorem nisi repellat incidunt accusantium ullam voluptate animi, reiciendis rerum vel molestiae vitae exercitationem maxime veritatis repudiandae voluptatibus iste. Quos beatae repudiandae itaque aspernatur quam inventore aut deserunt possimus.
+                Omnis assumenda culpa ullam vitae in facere architecto eveniet officiis inventore saepe molestiae repudiandae non numquam, optio soluta, eaque delectus minus incidunt aliquam asperiores ducimus cupiditate! Minus, facere. Dicta, aperiam!
+                Illum debitis et adipisci impedit quasi. Ab similique illum voluptatum maxime harum qui odio facere nemo est cumque, mollitia rerum modi suscipit itaque placeat possimus reiciendis ducimus laudantium. Voluptates, repellendus.
+                Amet fuga vitae atque reprehenderit expedita quod quos obcaecati eaque placeat voluptatibus vero corrupti adipisci, vel recusandae deserunt laboriosam consequatur. Asperiores eveniet eaque architecto a repellendus maxime deserunt dolore quidem!
+                Beatae maiores eius ullam corporis quaerat, dignissimos quae. Vero, nisi provident quibusdam molestiae quos dolores.</p>
+            </div>
         </div>
     </article>
 
-    <footer class="sneakers-container">
-        <ul class="sneakers-items">
-            <li>
-                <img src="images/descarga (1).jfif" alt="Producto">
-            </li>
-            <li>
-                <img src="images/descarga (2).jfif" alt="Producto">
-            </li>
-            <li>
-                <img src="images/descarga (3).jfif" alt="Producto">
-            </li>
-            <li>
-                <img src="images/descarga (4).jfif" alt="Producto">
-            </li>
-        </ul>
+    <footer class="container footer-c mt-3 bg-light p-4 rounded-4 sneakers-container">
+        <div class="container d-flex justify-content-evenly">
+            <ul class="row sneakers-items">
+                <li class="col-3">
+                    <img src="images/descarga (1).jfif" alt="Producto">
+                </li>
+                <li class="col-3">
+                    <img src="images/descarga (2).jfif" alt="Producto">
+                </li>
+                <li class="col-3">
+                    <img src="images/descarga (3).jfif" alt="Producto">
+                </li>
+                <li class="col-3">
+                    <img src="images/descarga (4).jfif" alt="Producto">
+                </li>
+            </ul>
+        </div>
         <p class="sneakers-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi molestiae, nam aut a maiores nostrum, vero odit delectus quasi numquam ullam quisquam eum! Ab alias quos, accusantium fuga neque eaque.
         Officia distinctio assumenda praesentium, alias beatae temporibus ad adipisci. Tenetur corporis distinctio qui maxime et tempore odio dolores omnis quod aspernatur, fuga nulla ut corrupti sint beatae deleniti quaerat debitis.
         Aspernatur, nihil eius veritatis rem officiis ut id voluptates, consequatur veniam voluptate temporibus laborum expedita aliquam sequi? Corrupti cum nobis ipsa ab culpa dignissimos nisi, autem et minus dolore ut.

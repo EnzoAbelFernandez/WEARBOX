@@ -4,58 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/logo.png">
+    <link rel="icon" href="images/loguito.png">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:ital@1&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <title>WEARBOX</title>
+    <!-- Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Wearbox</title>
 </head>
-<body>
-    <header class="navbar-container">
-        <ul>
-            <nav class="navbar-items">
-                <li class="navbar-item1"><a href="sneakers.html">Sneakers</a></li>
-                <li class="navbar-item2"><a href="indumentaria.html">Indumentaria</a></li>
-                <li class="navbar-item3"><a href="index.html"><img src="images/logo.jpg" alt="WEARBOX Logo"></a></li>
-                <li class="navbar-item4"><a href="nosotros.html">Nosotros</a></li>
-                <li class="navbar-item5"><a href="contacto.html">Contacto</a></li>
-            </nav>
-        </ul>
-    </header>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <img class=".d-inline-block .align-text-top" src="images/loguito.png" alt="WEARBOX Logo">Wearbox
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="sneakers.html">Sneakers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="indumentaria.html">Indumentaria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    <article class="newin-container">
-        <div class="newin-items">
-            <img class="newin-item1" src="images/images.jfif" alt="Nuevo producto">
-            <main class="newin-item2">NEW IN</main>
-            <p class="newin-item3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque rem iste deleniti alias ex. Dolorum aspernatur eveniet blanditiis soluta, laborum mollitia harum suscipit, velit sunt culpa odio dignissimos voluptates ad?
-            Quo, temporibus consectetur culpa totam reprehenderit blanditiis dolores placeat! Nam cumque dicta, nulla fuga delectus quidem officiis commodi expedita facere placeat, ea animi ex! Sapiente, neque? Iste, eius! Perspiciatis, laborum.
-            Molestias perferendis mollitia optio ipsa id, cupiditate ut quibusdam impedit deserunt explicabo iste maiores labore facilis porro quod excepturi natus corporis dolorum soluta aperiam veniam alias! Mollitia veniam aliquid voluptatem.
-            Nemo, ullam? Reiciendis laudantium cum mollitia, autem sunt provident alias cupiditate aliquam ea nobis! Eos facilis quibusdam libero aliquam facere! Velit nihil perferendis exercitationem similique possimus provident natus, amet culpa!
-            Culpa dolorem nisi repellat incidunt accusantium ullam voluptate animi, reiciendis rerum vel molestiae vitae exercitationem maxime veritatis repudiandae voluptatibus iste. Quos beatae repudiandae itaque aspernatur quam inventore aut deserunt possimus.
-            Omnis assumenda culpa ullam vitae in facere architecto eveniet officiis inventore saepe molestiae repudiandae non numquam, optio soluta, eaque delectus minus incidunt aliquam asperiores ducimus cupiditate! Minus, facere. Dicta, aperiam!
-            Illum debitis et adipisci impedit quasi. Ab similique illum voluptatum maxime harum qui odio facere nemo est cumque, mollitia rerum modi suscipit itaque placeat possimus reiciendis ducimus laudantium. Voluptates, repellendus.
-            Amet fuga vitae atque reprehenderit expedita quod quos obcaecati eaque placeat voluptatibus vero corrupti adipisci, vel recusandae deserunt laboriosam consequatur.</p>
+    <article class="container container-newin bg-light p-4 rounded-4">
+        <div class="row">
+            <img class="col-6 rounded-4" src="images/images.jfif" alt="Nuevo producto">
+            <div class="col-6">
+              <main class="row fs-4">NEW IN</main>
+              <p class="row">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque rem iste deleniti alias ex. Dolorum aspernatur eveniet blanditiis soluta, laborum mollitia harum suscipit, velit sunt culpa odio dignissimos voluptates ad?
+              Quo, temporibus consectetur culpa totam reprehenderit blanditiis dolores placeat! Nam cumque dicta, nulla fuga delectus quidem officiis commodi expedita facere placeat, ea animi ex! Sapiente, neque? Iste, eius! Perspiciatis, laborum.
+              Molestias perferendis mollitia optio ipsa id, cupiditate ut quibusdam impedit deserunt explicabo iste maiores labore facilis porro quod excepturi natus corporis dolorum soluta aperiam veniam alias! Mollitia veniam aliquid voluptatem.
+              Nemo, ullam? Reiciendis laudantium cum mollitia, autem sunt provident alias cupiditate aliquam ea nobis! Eos facilis quibusdam libero aliquam facere! Velit nihil perferendis exercitationem similique possimus provident natus, amet culpa!
+              Culpa dolorem nisi repellat incidunt accusantium ullam voluptate animi, reiciendis rerum vel molestiae vitae exercitationem maxime veritatis repudiandae voluptatibus iste. Quos beatae repudiandae itaque aspernatur quam inventore aut deserunt possimus.
+              Omnis assumenda culpa ullam vitae in facere architecto eveniet officiis inventore saepe molestiae repudiandae non numquam, optio soluta, eaque delectus minus incidunt aliquam asperiores ducimus cupiditate! Minus, facere. Dicta, aperiam!
+              Illum debitis et adipisci impedit quasi. Ab similique illum voluptatum maxime harum qui odio facere nemo est cumque, mollitia rerum modi suscipit itaque placeat possimus reiciendis ducimus laudantium. Voluptates, repellendus.
+              Amet fuga vitae atque reprehenderit expedita quod quos obcaecati eaque placeat voluptatibus vero corrupti adipisci, vel recusandae deserunt laboriosam consequatur.</p>
+            </div>
         </div>
     </article>
     
-    <footer class="footer-container">
-        <ul class="footer-items">
-            <li>
-                <img src="images/images (1).jfif" alt="Producto">
-            </li>
-            <li>
-                <img src="images/images (2).jfif" alt="Producto">
-            </li>
-            <li>
-                <img src="images/images (3).jfif" alt="Producto">
-            </li>
-            <li>
-                <img src="images/images (4).jfif" alt="Producto">
-            </li>
-        </ul>
+    <footer class="container footer-c mt-3 bg-light p-4 rounded-4">
+        <div class="container d-flex justify-content-evenly">
+          <ul class="row">
+              <li class="col-3">
+                  <img class="rounded-4" src="images/images (1).jfif" alt="Producto">
+              </li>
+              <li class="col-3">
+                  <img class="rounded-4" src="images/images (2).jfif" alt="Producto">
+              </li>
+              <li class="col-3">
+                  <img class="rounded-4" src="images/images (3).jfif" alt="Producto">
+              </li>
+              <li class="col-3">
+                  <img class="rounded-4" src="images/images (4).jfif" alt="Producto">
+              </li>
+          </ul>
+        </div>
         <p class="footer-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi molestiae, nam aut a maiores nostrum, vero odit delectus quasi numquam ullam quisquam eum! Ab alias quos, accusantium fuga neque eaque.
         Officia distinctio assumenda praesentium, alias beatae temporibus ad adipisci. Tenetur corporis distinctio qui maxime et tempore odio dolores omnis quod aspernatur, fuga nulla ut corrupti sint beatae deleniti quaerat debitis.
         Aspernatur, nihil eius veritatis rem officiis ut id voluptates, consequatur veniam voluptate temporibus laborum expedita aliquam sequi? Corrupti cum nobis ipsa ab culpa dignissimos nisi, autem et minus dolore ut.
@@ -68,6 +90,7 @@
         At corporis rerum nostrum sint, omnis aspernatur! Itaque debitis molestiae dolorum eaque doloremque harum nostrum dignissimos cumque facilis exercitationem, esse ut nam in dicta repellendus eveniet labore non aliquid consequatur.</p>
     </footer>
     
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
