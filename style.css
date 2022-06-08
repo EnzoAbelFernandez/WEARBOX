@@ -61,7 +61,9 @@
     }
 }
 
-
+.footer-c ul p {
+    color: white;
+}
 .foto1, .foto2, .foto3, .foto4 {
     transition: all 0.5s;
 }
@@ -76,4 +78,54 @@
 }
 .foto4:hover {
     opacity: 0.0;
+}
+
+.sneakers-footer {
+    display: grid;
+    grid-template-areas: "foto1 foto2 foto3 foto4";
+    justify-content: space-evenly;
+    padding-left: 0px;
+}
+.sk1{
+    grid-area: foto1;
+}
+.sk2{
+    grid-area: foto2;
+}
+.sk3{
+    grid-area: foto3;
+}
+.sk4{
+    grid-area: foto4;
+}
+.sk1, .sk2, .sk3, .sk4 {
+    transition: all 0.5s;
+}
+.sk1:hover {
+    opacity: 0.0;
+}
+.sk2:hover {
+    opacity: 0.0;
+}
+.sk3:hover {
+    opacity: 0.0;
+}
+.sk4:hover {
+    opacity: 0.0;
+}
+@media screen and (max-width: 1130px){
+    .sneakers-footer {
+        grid-template-areas: "foto1 foto2"
+                             "foto3 foto4";
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 610px){
+    .sneakers-footer {
+        grid-template-areas: "foto1"
+                             "foto2"
+                             "foto3"
+                             "foto4";
+        justify-content: center;
+    }
 }
