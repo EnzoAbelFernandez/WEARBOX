@@ -60,3 +60,20 @@
         justify-content: center;
     }
 }
+
+
+.foto1, .foto2, .foto3, .foto4 {
+    transition: all 0.5s;
+}
+.foto1:hover {
+    opacity: 0.0;
+}
+.foto2:hover {
+    opacity: 0.0;
+}
+.foto3:hover {
+    opacity: 0.0;
+}
+.foto4:hover {
+    opacity: 0.0;
+}
