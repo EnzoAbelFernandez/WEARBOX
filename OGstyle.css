@@ -1,4 +1,4 @@
-.navbar-brand img {
+/* .navbar-brand img {
     width: 2em;
     height: 2em;
 
@@ -10,13 +10,13 @@
 
 .footer-c ul {
     list-style: none;
-}
+} */
 
-.container-newin {
+/* .container-newin {
     margin-top: 78px;
-}
+} */
 
-.text1 {
+/* .text1 {
     display: flex;
     align-items: center;
 }
@@ -42,9 +42,9 @@
 }
 .foto4{
     grid-area: foto4;
-}
+} */
 
-@media screen and (max-width: 840px){
+/* @media screen and (max-width: 840px){
     .fotos-footer {
         grid-template-areas: "foto1 foto2"
                              "foto3 foto4";
@@ -59,12 +59,12 @@
                              "foto4";
         justify-content: center;
     }
-}
+} */
 
-.footer-c ul p {
+/* .footer-c ul p {
     color: white;
-}
-.foto1, .foto2, .foto3, .foto4 {
+} */
+/* .foto1, .foto2, .foto3, .foto4 {
     transition: all 0.5s;
 }
 .foto1:hover {
@@ -78,9 +78,9 @@
 }
 .foto4:hover {
     opacity: 0.0;
-}
+} */
 
-.navbar ul a {
+/* .navbar ul a {
     font-family: Montserrat;
     background-color: white;
     margin: 0px 20px;
@@ -90,9 +90,9 @@
 }
 .navbar ul a:hover {
     background-color: rgb(196, 196, 196);
-}
+} */
 
-.sneakers-footer {
+/* .sneakers-footer {
     display: grid;
     grid-template-areas: "foto1 foto2 foto3 foto4";
     justify-content: space-evenly;
@@ -109,8 +109,8 @@
 }
 .sk4{
     grid-area: foto4;
-}
-.sk1, .sk2, .sk3, .sk4 {
+} */
+/* .sk1, .sk2, .sk3, .sk4 {
     transition: all 0.5s;
 }
 .sk1:hover {
@@ -124,8 +124,8 @@
 }
 .sk4:hover {
     opacity: 0.0;
-}
-@media screen and (max-width: 1130px){
+} */
+/* @media screen and (max-width: 1130px){
     .sneakers-footer {
         grid-template-areas: "foto1 foto2"
                              "foto3 foto4";
@@ -140,4 +140,4 @@
                              "foto4";
         justify-content: center;
     }
-}
+} */
