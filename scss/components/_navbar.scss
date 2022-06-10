@@ -1,0 +1,20 @@
+@import "../base/variables";
+@import "../base/mixins";
+.navbar-brand {
+    position: relative;
+    top: 0.6px;
+    img {
+        @include img-tamaño(2em, 2em)
+    }
+}
+
+.navbar ul a {
+    font-family: Montserrat;
+    margin: 0px 20px;
+    border-radius: 1.5rem;
+    transition: all 0.5s;
+    color: black;
+    &:hover {
+        background-color: $oscuro;
+    }
+}
