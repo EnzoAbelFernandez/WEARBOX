@@ -1,8 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 @import "components/navbar";
 @import "components/footer";
 @import "components/sneakers";
+@import "components/contacto";
+@import "components/nosotros";
 
-.container-newin {
+.def-margin {
     margin-top: 78px;
 }
 
@@ -13,4 +24,8 @@
 
 .img-tm {
     width: 80%;
+}
+
+.disclaimer {
+    display: none !important;
 }
