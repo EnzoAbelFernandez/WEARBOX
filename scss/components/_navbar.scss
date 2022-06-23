@@ -4,13 +4,16 @@
     @include img-tamaño(2em, 2em)
 }
 
-.navbar ul a {
-    font-family: Montserrat;
-    margin: 0px 20px;
-    border-radius: 1.5rem;
-    transition: all 0.5s;
-    color: black;
-    &:hover {
-        background-color: $oscuro;
+.navbar ul {
+    position: relative;
+    top: 8px;
+    a {
+        font-family: Montserrat;
+        transition: all 0.3s;
+        color: black;
+        border-bottom: 3px solid rgba(0, 0, 0, 0);
+        &:hover {
+            border-bottom: 3px solid black;
+        }
     }
 }

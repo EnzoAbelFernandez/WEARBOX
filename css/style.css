@@ -12,15 +12,18 @@ html {
   height: 2em;
 }
 
+.navbar ul {
+  position: relative;
+  top: 8px;
+}
 .navbar ul a {
   font-family: Montserrat;
-  margin: 0px 20px;
-  border-radius: 1.5rem;
-  transition: all 0.5s;
+  transition: all 0.3s;
   color: black;
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
 }
 .navbar ul a:hover {
-  background-color: rgb(196, 196, 196);
+  border-bottom: 3px solid black;
 }
 
 .sk1, .sk2, .sk3, .sk4, .foto1, .foto2, .foto3, .foto4 {
