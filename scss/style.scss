@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+.disclaimer {
+    display: none!important;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -13,6 +17,10 @@ html {
 @import "components/contacto";
 @import "components/nosotros";
 @import "components/index";
+
+html{
+    background-color:$knit-lt;
+}
 
 .def-margin {
     margin-top: 78px;

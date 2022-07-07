@@ -2,13 +2,3 @@
     width: $width;
     height: $height;
 }
-
-@mixin dosPorDos($tamañoPantalla) {
-    @media screen and (max-width: $tamañoPantalla){
-        .fotos-footer {
-            grid-template-areas: "foto1 foto2"
-                                 "foto3 foto4";
-            justify-content: center;
-        }
-    }
-}

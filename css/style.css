@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+.disclaimer {
+  display: none !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -219,6 +223,14 @@ html {
 
 .carousel-item img {
   width: 90%;
+}
+
+.carousel-container {
+  background-color: rgb(47, 59, 104);
+}
+
+html {
+  background-color: rgb(47, 59, 104);
 }
 
 .def-margin {
