@@ -1,0 +1,13 @@
+%desaparecer {
+    transition: all 0.5s;
+    &:hover {
+        opacity: 0.0;
+    }
+}
+
+%grid4linea {
+    display: grid;
+    grid-template-areas: "foto1 foto2 foto3 foto4";
+    justify-content: space-evenly;
+    padding-left: 0px;
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.disclaimer {
+    display: none!important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@import "components/navbar";
+@import "components/footer";
+@import "components/sneakers";
+@import "components/contacto";
+@import "components/nosotros";
+@import "components/index";
+
+html{
+    background-color:$knit-lt;
+}
+
+.def-margin {
+    margin-top: 78px;
+}
+
+.text1 {
+    display: flex;
+    align-items: center;
+}
+
+.img-tm {
+    width: 80%;
+}
+
+.disclaimer {
+    display: none !important;
+}
