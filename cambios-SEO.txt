@@ -1,1 +1,0 @@
-Cambié los títulos de las 5 paginas para que tengan más de 35 caracteres, puse meta descriptions con más de 75 caracteres, keywords y protocolo open graph.
